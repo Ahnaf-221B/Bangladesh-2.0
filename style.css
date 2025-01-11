@@ -102,7 +102,7 @@
 }
 
 .pillar-crd img{
-    width:40px
+    width:40px;
 }
 .pillar-crd h4{
     padding: 10px 0px;
@@ -112,3 +112,88 @@
     color: #0E0E0E;
     font-weight: 200;
 }
+
+#vision{
+    margin: 0px 30px;
+}
+
+.vision-section{
+    display: flex;
+    flex-direction: row;
+    gap:  30px;
+}
+.vision-des{
+    padding: 30px 0px;
+}
+
+.vision-details-01 {
+    padding:  25px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: #81B4FC;
+    text-align: justify;
+}
+
+.vision-details-02 {
+    padding:  25px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color: #C6E4D6;
+    text-align: justify;
+} 
+
+.vision-details-03 {
+    padding:  25px;
+    border: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    background-color:#F7EBCF;
+    text-align: justify;
+}
+.vision-details-01 img{
+   width: 40px;
+}
+.vision-details-02 img{
+   width: 40px;
+}
+.vision-details-03 img{
+   width: 40px;
+}
+
+.vision-details-01 h3, .vision-details-02 h3, .vision-details-03 h3{
+    padding: 10px  0px;
+}
+
+.vision-details-01 .btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white   ;
+    background-color: #5490F5;
+    
+    border-width: 1px;
+    cursor: pointer;
+   margin: 20px 0px;
+}
+.vision-details-02 .btn{
+  border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white  ;
+   background-color: #09A15C;
+    border-width: 1px;
+    cursor: pointer;
+   margin: 20px 0px;
+}
+ .vision-details-03 .btn{
+  border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    color: white ;
+    background-color: #FFC239;
+    border-width: 1px;
+    cursor: pointer;
+   margin: 20px 0px;
+ }
