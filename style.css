@@ -2,9 +2,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: fira-sans;
+    font-family: Fira Sans;
 }
-
+body{
+    margin: 0px 50px;
+}
 #head {
   display: flex;
   margin: 30px 35px;
@@ -33,56 +35,59 @@
 }
 
 
-.banner-section {
-    background-color:#C6E4D6 ;
-    
-    margin: 30px;
-    border-radius: 10px;
+.thumbnail {
     display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    padding: 50px;
+    border-radius: 24px;
+}
+
+.thumbnail-details {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
-#banner img{
-    width: 100%;
-    padding: 20px 0px;
-   
-}
-.banner-section{
-    padding: 0px 30px;
-   
-}
-.banner-des p{
-    font-weight: 200;
-     color: #0E0E0E;
-}
-.banner-des h1{
-   padding :  40px 0px;
-   font-size: 30px;
+.thumbnail-details p {
+    padding: 0px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.5);
 }
 
-.banner-des .btn{
-     padding: 0px;
-    border-radius: 5px;
-    width: 200px;
-    height: 30px;
+.thumbnail-details h2 {
+    padding: 0px;
+    font-size: 56px;
+    margin: 0px;
+}
+
+.thumbnail-details button {
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    color: whitesmoke;
+    font-weight: bold;
     background-color: #006A50;
-    color: white;
-    border-color: #006A50;
-    border-width: 1px;
-    cursor: pointer;
+    margin: 25px 0px;
+    transition: 0.3s ease;
+    border: none;
 }
 
-.banner-des .btn:hover{
+.thumbnail-details button:hover {
+    transition: 0.5s ease;
+    background-color: whitesmoke;
+    color: #006A50;
     cursor: pointer;
-    background-color: white;
-    color: black;
-    font-weight: 600;
+    border: none;
+    border: 1px solid #006A50;
 }
 
 #pillar{
     margin:30px;
 
+}
+#pillar h1{
+    font-size: 40px;
 }
 .pillar-sec{
     display: flex;
@@ -110,11 +115,14 @@
 
 .pillar-crd P{
     color: #0E0E0E;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 #vision{
     margin: 0px 30px;
+}
+#vision h1{
+    font-size: 40px;
 }
 
 .vision-section{
@@ -124,6 +132,8 @@
 }
 .vision-des{
     padding: 30px 0px;
+    color: #0E0E0E;
+    font-weight: 300;
 }
 
 .vision-details-01 {
@@ -197,3 +207,81 @@
     cursor: pointer;
    margin: 20px 0px;
  }
+
+ .vision-details-01 p, .vision-details-02 p, .vision-details-03 p{
+     color: #0E0E0E;
+    font-weight: 300;
+ }
+
+ #news{
+    margin:  30px;
+    display: flex;
+    flex-direction: column;
+
+ }
+ #news h1{
+    font-size: 40px;
+ }
+ .news-des{
+    margin: 30px 0px;
+     color: #0E0E0E;
+    font-weight: 300;
+ }
+
+ .news-sec{
+    margin: 10px 0px;
+    padding: 40px;
+    box-shadow: 0px 0px 5px rgba(0,0,0, .4) ;
+    
+    background-color: white;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    
+    gap: 100px;
+ }
+.news-img img{
+    border-radius: 15px;
+}
+
+.date {
+    display: flex;
+    margin: 10px 0px;
+    gap: 20px;
+}
+
+.news-description img{
+    margin: 15px 0px;
+}
+
+.news-btn{
+    border-radius: 5px;
+    width: 100px;
+    height:40px;
+    color: white   ;
+    background-color: #006A50;
+    
+    border-width: 1px;
+    cursor: pointer;
+    margin: 18px 0px;
+}
+
+.news-description p{
+    margin: 16px 0PX;
+     color: #0E0E0E;
+    font-weight: 300;
+}
+
+#donate {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+#donate h1{
+    font-size: 40px;
+}
+#donate p{
+    width: 200;
+}
