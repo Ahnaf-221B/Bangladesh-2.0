@@ -1,0 +1,89 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#head {
+  display: flex;
+  margin: 30px 35px;
+  justify-content: space-between;
+ 
+}
+#head .head-p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#head .btn {
+    padding: 0px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: #006A50;
+    border-color: #006A50;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #358870;
+    color: white;
+}
+
+
+.banner-section {
+    background-color:#C6E4D6 ;
+    
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img{
+    width: 100%;
+    padding: 20px 0px;
+   
+}
+.banner-section{
+    padding: 0px 30px;
+   
+}
+.banner-des p{
+    font-weight: 200;
+     color: #0E0E0E;
+}
+.banner-des h1{
+   padding :  40px 0px;
+   font-size: 30px;
+}
+
+.banner-des .btn{
+     padding: 0px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    background-color: #006A50;
+    color: white;
+    border-color: #006A50;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.banner-des .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+#pillar{
+    margin:30px;
+
+}
+.pillar-sec{
+    display: flex;
+    background-color: white;
+}
