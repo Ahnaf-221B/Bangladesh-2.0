@@ -100,7 +100,7 @@ main {
 
 .pillar-crd {
   border: 0px solid white;
-  padding: 20px 5px;
+  padding: 20px 20px;
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   background-color: white;
