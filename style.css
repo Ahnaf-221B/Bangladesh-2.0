@@ -13,25 +13,28 @@ main {
  margin: 30px 100px;
   justify-content: space-between;
 }
+
 #head .head-p {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 #head .btn {
   padding: 0px;
   border-radius: 5px;
-  width: 80px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
   color: #006a50;
   border-color: #006a50;
-  border-width: 1px;
+  border-width: 2px;
   cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .btn:hover {
-  background-color: #358870;
-  color: white;
+ background-color: #3ca88d;
+ color: #ccc;
 }
 
 .thumbnail {
@@ -50,7 +53,7 @@ main {
 
 .thumbnail-details p {
   padding: 0px;
-  font-size: 30px;
+  font-size: 20px;
   color: rgba(14, 14, 14, 0.5);
 }
 
@@ -544,7 +547,7 @@ footer{
     margin-top: 40px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
     padding: 40px;
-    width: 107%;
+    width: 98%;
     margin-left: -49px;
     margin-bottom: -60px;
 }
