@@ -4,13 +4,13 @@
   padding: 0px;
   font-family: Fira Sans;
 }
-body {
+main {
   margin: 0px 100px;
 
 }
 #head {
   display: flex;
-  margin: 30px 35px;
+ margin: 30px 100px;
   justify-content: space-between;
 }
 #head .head-p {
@@ -50,7 +50,7 @@ body {
 
 .thumbnail-details p {
   padding: 0px;
-  font-size: 20px;
+  font-size: 30px;
   color: rgba(14, 14, 14, 0.5);
 }
 
@@ -113,6 +113,71 @@ body {
   color: #0e0e0e;
   font-weight: 300;
 }
+
+.opinion-h{
+    margin: 30px 30px;
+    font-size: 40px
+}
+.opinion-section {
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 1350px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.opinion-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000; 
+  margin-bottom: 20px;
+}
+
+.opinion-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 10px;
+  
+  border-left: 2px;
+}
+
+
+.opinion-table thead {
+  background-color: #d5efe5; 
+}
+
+.opinion-table th {
+  padding: 15px;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+}
+
+
+.opinion-table td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.2);
+  font-size: 14px;
+  color: #555;
+  border-right: 1px solid rgba(14, 14, 14, 0.2);
+  border-left: 1px solid rgba(14, 14, 14, 0.2);
+
+}
+
+.opinion-select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#d5efe5 ;
+  cursor: pointer;
+}
+
 
 #vision {
   margin: 0px 30px;
@@ -432,4 +497,36 @@ body {
   border: none;
   border: 1px solid #006a50;
 }
+footer{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 107%;
+    margin-left: -49px;
+    margin-bottom: -60px;
+}
+.footer h1{
+    padding: 20px 0px;
+}
+
+.social-icons .img1{
+  margin: 0px 100px;
+}
+
+hr{
+    opacity: 10%;
+    width: 58%; 
+    border: 1px solid black;
+}
+
+
 
