@@ -33,8 +33,9 @@ main {
 }
 
 .btn:hover {
+  transition: 0.5s ease;
  background-color: #3ca88d;
- color: #ccc;
+ color: whitesmoke;
 }
 
 .thumbnail {
